@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #f2dbb2;
+    font-size: 19px;
+}
+
+.cangiua-header {
+    margin-top: -46px;
+    margin-bottom: 299px;
+}
+
+.motkhoi.khoi2 {
+    margin-left: 106px;
+}
+
+p.cmt {}
+
+h3.ten {
+    height: 34px;
+}
+
+h2.daude {
+    height: 36px;
+}
+
+p.c {
+    height: 72px;
+    color: #fff0f0;
+    font-size: 24px;
+}
+
+p.c {}
+
+p.lop {
+    color: black;
+}
+
+.thongtin {margin-left: 287px;}
+ 
+.col-4 {
+    line-height: 44px;
+    font-size: 21px;}
+
+nav.thanhdaude {
+        background-color: #cf975b;
+        margin-top: -2px;
+    }
+    
+.container {font-family: 'Raleway', sans-serif;}
+
+
+.tieude.text-center {margin-top: 75px;margin-bottom: 75px;font-family: 'Raleway', sans-serif;text-transform: uppercase;}
+
+
+h4.ten {font-family: 'Segoe UI';font-size: 24px;color: white;margin-top: 48px;margin-bottom: 12px;}
+
+.layer2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transform: scale(0);
+    transition: 0.4s;
+}
+
+.layer1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: inset 0 0 0 0 #f375756e;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.motkhoi:hover .layer1 {
+    box-shadow: inset 0 0 0 110px #f375756e;
+}
+
+.motkhoi:hover .layer2 {
+    transform: scale(1);
+}
+
+.motkhoi {
+    width: 220px;
+    height: 220px;
+    background: #999;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 20px #ffffffa3;
+    position: relative;
+}
+.thanhngang.text-white {
+    display: flex;
+    justify-content: space-around;
+    margin: 591px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2px;
+    margin-bottom: -48px;
+    height: 68px;
+    background-size: 100% 100%;
+    font-size: 15px;
+    font-weight: 900;
+    }
+    .khoi1 {
+        background-image: url(1.jfif);
+        margin-left: 345px;
+        margin-top: -88px;
+        size: 24;
+    }
+
+.col-4 {
+    line-height: 44px;
+    font-size: 21px;}
+
+header {
+    background-image: url(4.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin-top: 44px;
+    margin-bottom: -34px;
+    }
+
+    h3.tieudenho {
+        font-size: 41px;
+        font-weight: 700;
+        color: #ffffffbd;
+        margin-left: 458px;
+        margin-top: 210px;
+    }
+    
+    h1.tieudeto {
+        font-size: 131px;
+        font-family: 'Segoe UI';
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: 254px;
+    }
+    
+
+.nut button {
+    width: 48px;
+    height: 48px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: none;
+    margin-bottom: 64px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nut button:hover {
+    background: black;
+    color: white;
+}
+
+p.cmt {
+    font-size: 21px;
+    line-height: 40px;
+    height: 150px;
+    color: #b1c3c6;
+}
+
+p.cmt {}
+
+
+
+ul.khoi {
+    width: 900px;
+    margin: auto;
+    position: relative;
+    height: 572px;
+    overflow: hidden;
+}
+
+hr {
+    width: 36px;
+    border: 2px solid;
+    margin: auto;
+    margin-bottom: 64px;
+}
+
+h3.tieude {
+    font-size: 24px;
+    padding-top: 48px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: wheat;
+}
+
+.khoilon {
+    background: wheat;
+    background-image: url(2.jpg);
+    margin-top: 34px;
+    text-align: center;
+    font-family: sans-serif;
+    height: 685px;
+}
+
+.motkhoi.khoi2{
+    background-image: url(3.jpg);
+}
+
+li.slide {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    margin-left: 177px;
+    transition: 0.4s;
+}
+
+li.slide.slide2.active {
+    margin-left: 223px;
+}
+
+li.slide.slide1.active {
+    margin-left: 0;
+}
+
+.active {
+    opacity: 1!important;
+    animation: divao 0.4s!important;
+}
+
+li.slide.slide3.active {
+    margin-left: 247px;
+}
+
+.deactive {
+    animation: dira 0.4s!important;
+    opacity: 0!important;
+}
+@-webkit-keyframes divao {
+    0% { transform: translateX(900px); }
+    100% { transform: translateX(0px); }
+}
+
+@-webkit-keyframes dira {
+    0% { transform: translateX(0px); }
+    100% { transform: translateX(-900px); }
+}
